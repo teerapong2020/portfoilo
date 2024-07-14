@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const experiences = [
   {
-    period: '2024 - Present',
-    company: 'RoBenDevs',
-    role: 'Software Engineer IV',
-    description: '',
+    period: "Jan 2024 - Present",
+    company: "Generation Thailand",
+    role: "leaner Juinor Software Develor(Bootcamp)",
+    description: "",
   },
   {
-    period: '2023 - 2024',
-    company: 'Miaki',
-    role: 'Senior Software Engineer',
-    description: 'I worked for Grameenphone as an augmented resource of Miaki. Within Grameenphone, I was a crucial part of the core Notification system and InApp team where I was actively involved in a significant sub-leadership capacity, contributing my skills to serve a customer base of millions. My role encompassed several crucial responsibilities, including system performance optimization, user experience enhancement, and close collaboration with a dynamic team to effectively address the ever-evolving communication requirements of the telecommunications industry. I also worked closely with the DevOps teams to facilitate seamless system deployment and management, ensuring the robustness and reliability of the Notification system.',
+    period: "Dec 2023 - Jul 2024",
+    company: "Bangkok Bank",
+    role: "Relationship Ofticer (SME)",
+    description:
+      "-Coordinated with various internal and external departments to ensure customer requests were processed. Drafted loan agreements in accordance with company guidelines. And built and maintained good relationships with both new and existing customers.",
   },
 ];
 
