@@ -52,7 +52,7 @@ const Project = () => {
              {show ? null : <div 
           className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded">
            <div className="flex gap-8 ">
-           <Link to={"https://https://github.com/Eggplant-Samurai.com/docs/opacity"}>
+           <Link to={"https://github.com/Eggplant-Samurai"}>
            <FaGithub size={50} className=" opacity-50 hover:opacity-100"/>
            </Link>
            <Link to={"https://roodeeth.vercel.app/"}>
