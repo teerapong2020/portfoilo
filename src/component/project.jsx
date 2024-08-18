@@ -46,9 +46,15 @@ const Project = () => {
 
   return (
     <>
-     <h2 className="text-2xl mb-4 text-center text-white">Project</h2>
-    <section className="text-white flex items-center justify-center">
-      <div  className="relative w-1/2 overflow-hidden">
+     <h2 className="text-3xl mb-4 text-center text-white animate-fadeIn">Project</h2>
+    <section className="text-white flex items-center justify-center animate-fadeIn">
+    <button
+          onClick={prevSlide}
+          className="relative top-2 md:right-3  transform -translate-y-1/2 text-white text-5xl "
+        >
+          ❮
+        </button>
+      <div  className="relative md:w-1/2 overflow-hidden">
         <div
           className="flex transition-transform duration-500"
           style={{
@@ -98,20 +104,16 @@ const Project = () => {
             </div>
           ))}
             </div>
-                  <button
-          onClick={prevSlide}
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-4 py-2 "
-        >
-          ❮
-        </button>
+    
+      
+      </div>
+   
         <button
           onClick={nextSlide}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-4 py-2"
+          className=" relative top-2 md:left-4 transform -translate-y-1/2 text-white text-5xl  "
         >
           ❯
         </button>
-      
-      </div>
     </section>
     </>
   );
