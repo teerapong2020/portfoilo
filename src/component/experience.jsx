@@ -19,8 +19,8 @@ const experiences = [
 const Experience = () => {
   return (
     <div className="bg-gray-900 p-8 rounded-lg mt-8">
-      <h2 className="text-3xl text-white mb-6">Experience And Education</h2>
-      <div className="space-y-6">
+      <h2 className="text-3xl text-white mb-6 flex justify-center">Experience</h2>
+      <div className="space-y-6 w-1/2 mx-auto">
         {experiences.map((experience, index) => (
           <div key={index} className="bg-gray-800 p-4 rounded-lg">
             <div className="flex items-center mb-2">

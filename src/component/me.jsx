@@ -1,10 +1,10 @@
 import React from 'react';
-import imgMe from "../assets/teerapong.jpg";
+import imgMe from "../assets/ME.jpg";
 
 const Me = () => {
   return (
     <header className="bg-gray-900 text-white p-4 text-center">
-      <img src={imgMe} alt="Teerapong" className="mx-auto rounded-full w-64 h-64 mb-4" />
+      <img src={imgMe} alt="Teerapong" className="mx-auto rounded-full w-60 h-56 mb-4" />
       <h1 className="text-3xl font-bold">Teerapong Chueathong</h1>
       <div className='flex justify-center gap-2'>
       <p 

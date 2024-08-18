@@ -13,7 +13,7 @@ function App() {
       element: (
         <>
         <div className="bg-gray-900">
-          <Navbar/>
+          {/* <Navbar/> */}
           <Me/>
           <Skills/>
           <Project/>
