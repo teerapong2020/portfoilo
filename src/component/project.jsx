@@ -12,20 +12,7 @@ const projects = [
     github: "https://github.com/Eggplant-Samurai",
     web: "https://roodeeth.vercel.app/",
   },
-  {
-    title: "Car",
-    tags: ["React.js", "MongoDB", "Express.js", "lll"],
-    trailer: "/src/assets/vdopromote.mp4",
-    github: "https://github.com",
-    web: "https://roodeeth.vercel.app/",
-  },
-  {
-    title: "Car4",
-    tags: ["React.js", "MongoDB", "Express.js", "lll"],
-    trailer: "/src/assets/vdopromote.mp4",
-    github: "https://github.com",
-    web: "https://roodeeth.vercel.app/",
-  },
+
 ];
 
 const Project = () => {
