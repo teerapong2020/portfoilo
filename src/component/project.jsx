@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Car E-commerce web application",
     tags: ["React.js", "MongoDB", "Express.js", "Tailwind CSS"],
-    trailer: "src/assets/vdopromote.mp4",
+    trailer: [vdocar],
     github: "https://github.com/Eggplant-Samurai",
     web: "https://roodeeth.vercel.app/",
   },
@@ -58,7 +58,7 @@ const Project = () => {
               <div className="bg-gray-800 p-4 rounded my-4 ">
                 <h3 className="text-xl mb-4">{project.title}</h3>
                 <video
-                  src={vdocar}
+                  src={project.trailer}
                   autoPlay
                   loop
                   muted
