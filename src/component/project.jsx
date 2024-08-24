@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { Link } from "react-router-dom";
@@ -8,7 +7,7 @@ const projects = [
   {
     title: "Car E-commerce web application",
     tags: ["React.js", "MongoDB", "Express.js", "Tailwind CSS"],
-    trailer: "/src/assets/vdopromote.mp4",
+    trailer: "src/assets/vdopromote.mp4",
     github: "https://github.com/Eggplant-Samurai",
     web: "https://roodeeth.vercel.app/",
   },
@@ -63,6 +62,7 @@ const Project = () => {
                   loop
                   muted
                   className="w-full h-auto mb-4 rounded"
+                    preload="metadata"
                 ></video>
                 <div className="mt-2">
                   {project.tags.map((tag, i) => (
